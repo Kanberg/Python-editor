@@ -1,3 +1,14 @@
+# Тест окружения
+print("=== Проверка окружения ===")
+try:
+    import pygame
+    print("✅ Pygame загружен успешно!")
+except ImportError as e:
+    print(f"❌ Ошибка: {e}")
+    exit(1)  # Остановить программу если pygame не установлен
+
+# Ваш основной код ниже (НЕ УДАЛЯТЬ!)
+# ... ваш существующий код редактора ...
 import pygame
 import sys
 import datetime
