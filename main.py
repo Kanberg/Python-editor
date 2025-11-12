@@ -260,3 +260,5 @@ sys.exit()
 if __name__ == "__main__":
     editor = PythonGameEditor()
     editor.run()
+print("=== Тест GitHub Actions ===")
+print("Ура! Работает!")
